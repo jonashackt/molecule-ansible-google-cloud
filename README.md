@@ -1,10 +1,8 @@
-# molecule-ansible-aws-gcp-azure
-[![Build Status](https://travis-ci.org/jonashackt/molecule-ansible-aws-gcp-azure.svg?branch=master)](https://travis-ci.org/jonashackt/molecule-ansible-aws-gcp-azure)
-[![versionansible](https://img.shields.io/badge/ansible-2.7.8-brightgreen.svg)](https://docs.ansible.com/ansible/latest/index.html)
-[![versionmolecule](https://img.shields.io/badge/molecule-2.19.0-brightgreen.svg)](https://molecule.readthedocs.io/en/latest/)
-[![versiontestinfra](https://img.shields.io/badge/testinfra-1.16.0-brightgreen.svg)](https://testinfra.readthedocs.io/en/latest/)
-[![versionawscli](https://img.shields.io/badge/awscli-1.16.110-brightgreen.svg)](https://aws.amazon.com/cli/)
-[![versionazurecli](https://img.shields.io/badge/azurecli-2.0.59-brightgreen.svg)](https://aws.amazon.com/cli/)
+# molecule-ansible-google-cloud
+[![Build Status](https://travis-ci.org/jonashackt/molecule-ansible-google-cloud.svg?branch=master)](https://travis-ci.org/jonashackt/molecule-ansible-google-cloud)
+[![versionansible](https://img.shields.io/badge/ansible-2.7.9-brightgreen.svg)](https://docs.ansible.com/ansible/latest/index.html)
+[![versionmolecule](https://img.shields.io/badge/molecule-2.20.0-brightgreen.svg)](https://molecule.readthedocs.io/en/latest/)
+[![versiontestinfra](https://img.shields.io/badge/testinfra-1.19.0-brightgreen.svg)](https://testinfra.readthedocs.io/en/latest/)
 
 Example projects showing how to do test-driven development of Ansible roles and running those tests on multiple Cloud providers at the same time
 
