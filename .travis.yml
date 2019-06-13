@@ -11,8 +11,7 @@ services:
 cache: pip
 
 install:
-- pip install molecule
-- pip install docker-py
+- pip install testinfra molecule docker
 - pip install gcloud apache-libcloud pycrypto
 
 # Was gcloud CLI successfully installed?
