@@ -11,7 +11,8 @@ services:
 cache: pip
 
 install:
-- pip install testinfra molecule docker
+- pip install ansible==2.7.11
+- pip install molecule docker
 - pip install gcloud apache-libcloud pycrypto
 
 # Was gcloud CLI successfully installed?
