@@ -1,7 +1,8 @@
 # molecule-ansible-google-cloud
 [![Build Status](https://travis-ci.org/jonashackt/molecule-ansible-google-cloud.svg?branch=master)](https://travis-ci.org/jonashackt/molecule-ansible-google-cloud)
+[![CircleCI](https://circleci.com/gh/jonashackt/molecule-ansible-google-cloud.svg?style=svg)](https://circleci.com/gh/jonashackt/molecule-ansible-google-cloud)
 [![versionansible](https://img.shields.io/badge/ansible-2.7.9-brightgreen.svg)](https://docs.ansible.com/ansible/latest/index.html)
-[![versionmolecule](https://img.shields.io/badge/molecule-2.20.0-brightgreen.svg)](https://molecule.readthedocs.io/en/latest/)
+[![versionmolecule](https://img.shields.io/badge/molecule-2.20.1-brightgreen.svg)](https://molecule.readthedocs.io/en/latest/)
 [![versiontestinfra](https://img.shields.io/badge/testinfra-1.19.0-brightgreen.svg)](https://testinfra.readthedocs.io/en/latest/)
 
 Example projects showing how to do test-driven development of Ansible roles and running those tests on multiple Cloud providers at the same time
@@ -397,8 +398,6 @@ script:
 ```
 
 
-
-## Add Azure to the party
 
 
 
