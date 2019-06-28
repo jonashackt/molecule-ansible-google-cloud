@@ -66,7 +66,7 @@ s---
    - name: gcp-gce-ubuntu
      zone: europe-west3-a
      machine_type: f1-micro
-     image: ubuntu-1804-bionic-v20190212a 
+     image: ubuntu-1804-bionic-v20190617 
  
  provisioner:
    name: ansible
@@ -100,7 +100,7 @@ Also the `verifier` section has to be enhanced to gain all the described advanta
 
 As you may noticed, the driver now uses `gce` and the platform is already pre-configured with a concrete `zone`, `machine_type` and a Google Compute Engine image. Here we just tune the instance name to `gcp-gce-ubuntu` and the `zone` according to our preferred region (see [available regions & zones here](https://cloud.google.com/compute/docs/regions-zones/regions-zones#available)).
 
-Let's also configure a suitable image (see [the Image list here](https://console.cloud.google.com/compute/images)) - for us using our "Install Docker on Ubuntu use case", we should choose `ubuntu-1804-bionic-v20190212a`. The preconfigure [Machine Type](https://cloud.google.com/compute/docs/machine-types?hl=en) `f1-micro` should suffice for us.
+Let's also configure a suitable image (see [the Image list here](https://console.cloud.google.com/compute/images)) - for us using our "Install Docker on Ubuntu use case", we should choose `ubuntu-1804-bionic-v20190617`. The preconfigure [Machine Type](https://cloud.google.com/compute/docs/machine-types?hl=en) `f1-micro` should suffice for us.
 
 
 ### Install needed Python packages: gcloud, apache-libcloud & pycrypto

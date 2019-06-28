@@ -8,7 +8,7 @@ platforms:
   - name: gcp-gce-ubuntu
     zone: europe-west3-a
     machine_type: f1-micro
-    image: ubuntu-1804-bionic-v20190212a
+    image: ubuntu-1804-bionic-v20190617
 
 provisioner:
   name: ansible
